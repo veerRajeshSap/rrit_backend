@@ -1,0 +1,9 @@
+<h1>Contact#index</h1>
+<p>Find me in app/views/contact/index.html.erb</p>
+<ul>
+ <%@contacts.each do |contact| %>
+  <li> <strong> <%contact.company_or_last_name %></strong> </li>
+  <li> <strong> <%contact.first_name %></strong> </li>
+  <li> <strong> <%contact.middle_name %></strong> </li>
+  <% end %>
+</ul>
